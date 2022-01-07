@@ -1113,6 +1113,28 @@ main {
     -webkit-text-fill-color: transparent;
   }
 
+  .linear_gradient {
+    font-weight: 600;
+    margin-top: 20%;
+    font-size: 4vh;
+    font-style: italic;
+    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .container_left .my_practit {
+    text-align: center;
+    width: 100%;
+    font-size: 3.2vh;
+    line-height: 5vh;
+    color: blue;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
   header .images {
     height: 375px;
     width: 200px;
