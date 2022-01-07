@@ -524,6 +524,7 @@ main {
 .container_right .contact .message_mail:hover {
   color: aqua;
   text-decoration: none;
+  cursor: pointer;
 }
 .container_right .contact .message_number {
   width: 40px;
@@ -610,6 +611,7 @@ main {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  margin-top: 3%;
 }
 
 .checked {
@@ -928,7 +930,68 @@ main {
     box-shadow: 0 0 0 10px rgba(243, 144, 144, 0.616);
   }
 }
-@media screen and (min-width: 270px) and (max-width: 376px) {
+@media screen and (min-width: 270px) and (max-width: 299px) {
+  header .images {
+    height: 375px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("images/84755479_114657776762467_8127973901121617920_n.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 6%;
+  }
+
+  .linear_gradient {
+    font-weight: 600;
+    margin-top: 20%;
+    font-size: 4vh;
+    font-style: italic;
+    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .linear_gradient_next {
+    font-weight: 600;
+    font-size: 1.9vh;
+    font-style: italic;
+    background: linear-gradient(135deg, #13413d 10%, #d6a40f 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .container_right .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container_right .contact .message_mail {
+    font-size: 2.7vh;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .container_left .my_practit {
+    text-align: center;
+    width: 100%;
+    font-size: 3vh;
+    line-height: 5vh;
+    color: blue;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .about_me_education {
+    text-align: center;
+    font-size: 2.9vh;
+    line-height: 5vh;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 376px) {
   header {
     display: flex;
     flex-direction: column;
@@ -1020,6 +1083,12 @@ main {
     display: flex;
     justify-content: flex-end;
   }
+
+  .container_right .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 377px) and (max-width: 540px) {
   header {
@@ -1039,6 +1108,7 @@ main {
   .linear_gradient_next {
     font-weight: 600;
     font-size: 2.2vh;
+    margin-top: 17%;
     font-style: italic;
     background: linear-gradient(135deg, #13413d 10%, #d6a40f 70%);
     -webkit-background-clip: text;
@@ -1100,7 +1170,7 @@ main {
 
   .container_right .contact {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 }
@@ -1183,7 +1253,7 @@ main {
 
   .container_right .contact {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 }
