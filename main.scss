@@ -70,7 +70,7 @@ main {
             height: 50px;
             background-position: center;
             background-size: cover;
-            background-image: url('/images/outline_email_black_36dp.png');
+            background-image: url('images/outline_email_black_36dp.png');
         }
         .message_mail {
             font-size: 3.5vh;
@@ -86,14 +86,14 @@ main {
             height: 50px;
             background-position: center;
             background-size: cover;
-            background-image: url('/images/outline_phone_black_36dp.png');
+            background-image: url('images/outline_phone_black_36dp.png');
         }
         .message_location {
             width: 40px;
             height: 50px;
             background-position: center;
             background-size: cover;
-            background-image: url('/images/outline_location_on_black_36dp.png');
+            background-image: url('images/outline_location_on_black_36dp.png');
         }
         .message_facebook {
             width: 70px;
@@ -112,6 +112,7 @@ main {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5%;
+    line-height: 7vh;
 }
 
 .about_me_education {
@@ -362,7 +363,7 @@ main {
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 376px) {
+@media screen and (min-width: 270px) and (max-width: 376px) {
     header {
         display: flex;
         flex-direction: column;
@@ -370,6 +371,21 @@ main {
         align-items: center;
         height: 427px;
         margin-bottom: 3%;
+    }
+    .icon {
+        position: relative;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        background: cadetblue;
+        border-radius: 100%;
+        margin: 0 12px;
+        -webkit-animation-name: show;
+        animation-name: show;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
     }
     header .names_size {
         font-size: 7vh;
